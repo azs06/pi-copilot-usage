@@ -1,0 +1,19 @@
+{
+  "name": "pi-copilot-usage",
+  "version": "0.1.0",
+  "description": "pi extension to track GitHub Copilot usage via the Copilot agents SDK",
+  "dependencies": {
+    "@github/copilot-sdk": "^0.2.1"
+  },
+  "pi": {
+    "extensions": [
+      "./src/index.ts"
+    ]
+  },
+  "devDependencies": {
+    "@mariozechner/pi-ai": "file:../../../.nvm/versions/node/v23.9.0/lib/node_modules/@mariozechner/pi-coding-agent/node_modules/@mariozechner/pi-ai",
+    "@mariozechner/pi-coding-agent": "file:../../../.nvm/versions/node/v23.9.0/lib/node_modules/@mariozechner/pi-coding-agent",
+    "@sinclair/typebox": "file:../../../.nvm/versions/node/v23.9.0/lib/node_modules/@mariozechner/pi-coding-agent/node_modules/@sinclair/typebox",
+    "typescript": "^6.0.2"
+  }
+}
