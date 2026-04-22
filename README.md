@@ -23,12 +23,7 @@ A **pi** extension that surfaces your GitHub Copilot Pro plan usage — quota, s
 ## Installation
 
 ```bash
-# 1. Install npm dependencies
-cd /path/to/pi-copilot-usage
-npm install
-
-# 2. Symlink into pi's global extensions directory
-ln -s "$(pwd)" ~/.pi/agent/extensions/pi-copilot-usage
+pi install https://github.com/azs06/pi-copilot-usage
 ```
 
 Then inside a running pi session, reload with `/reload`. The extension is auto-discovered on all future sessions.
